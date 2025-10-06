@@ -11,7 +11,7 @@ class Main {
         int length=sc.nextInt();
         int res=arr[0];
         int curr_sum=0;
-        for(int i=0;i<n-2;i++){
+        for(int i=0;i<n-l+1;i++){
             curr_sum=curr_sum+arr[i];
             res=Math.max(curr_sum,arr[i]);
         }
